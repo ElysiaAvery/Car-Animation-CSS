@@ -2,7 +2,7 @@
 #### By Elysia Nason
 #### 1-25-2018
 
-A fun experiment with creating a car animation with only HTML and CSS.
+A fun experiment with creating a car animation with only HTML and CSS. View [here](https://elysiaavery.github.io/Car-Animation-CSS/).
 
 <img src="car-in-css.PNG" alt="a screenshot of the app">
 

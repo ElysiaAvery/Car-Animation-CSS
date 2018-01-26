@@ -17,51 +17,46 @@ body {
   position: relative;
 }
 
+div, img {
+  position: absolute;
+  background-color: #fedb4c;
+  border-color: #ffcc13;
+  border-width: 8px;
+}
+
 .car {
   width: 500px;
   height: 150px;
-  position: absolute;
   top: 222px;
   left: 130px;
-  background-color: #fedb4c;
   border-radius: 20px;
   border-top-left-radius: 100px;
   border-top-right-radius: 200px;
   border-style: solid;
-  border-color: #ffcc13;
-  border-width: 8px;
 }
 
 .car-door {
   width: 138px;
   height: 130px;
-  position: absolute;
-  background-color: #fedb4c;
   top: 12px;
   left: 182px;
   border-style: solid;
-  border-color: #ffcc13;
-  border-width: 8px;
+
 }
 
 .car-roof {
   width: 300px;
   height: 100px;
-  position: absolute;
   top: -75px;
   left: 50px;
-  background-color: #fedb4c;
   border-top-left-radius: 200px;
   border-top-right-radius: 200px;
   border-style: solid;
-  border-color: #ffcc13;
-  border-width: 8px;
 }
 
 .car-window-shine {
   width: 10px;
   height: 73px;
-  position: absolute;
   top: -57.5px;
   left: 130px;
   background-color: lightgrey;
@@ -71,7 +66,6 @@ body {
 .car-window-shine-2 {
   width: 5px;
   height: 73px;
-  position: absolute;
   top: -57.5px;
   left: 160px;
   background-color: lightgrey;
@@ -81,7 +75,6 @@ body {
 .car-window-shine-3 {
   width: 12px;
   height: 70px;
-  position: absolute;
   top: -57.5px;
   left: 192px;
   background-color: lightgrey;
@@ -91,7 +84,6 @@ body {
 .car-window-shine-4 {
   width: 5px;
   height: 61px;
-  position: absolute;
   top: -46px;
   left: 260px;
   background-color: lightgrey;
@@ -101,9 +93,7 @@ body {
 .window-bottom {
   width: 350px;
   height: 25px;
-  position: absolute;
   left: 30px;
-  background-color: #fedb4c;
   border-top-left-radius: 200px;
   border-top-right-radius: 200px;
 }
@@ -111,34 +101,26 @@ body {
 .car-window {
   width: 240px;
   height: 75px;
-  position: absolute;
   top: -58px;
   left: 80px;
   background: linear-gradient(#293d3d, darkgrey);
   border-top-left-radius: 480px;
   border-top-right-radius: 480px;
   border-style: solid;
-  border-color: #ffcc13;
-  border-width: 8px;
 }
 
 .car-window-accent {
   width: 20px;
   height: 74.5px;
-  position: absolute;
-  background-color: #fedb4c;
   top: -58px;
   left: 170px;
   border-left-style: solid;
   border-right-style: solid;
-  border-color: #ffcc13;
-  border-width: 8px;
 }
 
 .car-window-line-1 {
   width: 8px;
   height: 10px;
-  position: absolute;
   background-color: #ffcc13;
   top: 17px;
   left: 182px;
@@ -147,7 +129,6 @@ body {
 .car-window-line-2 {
   width: 8px;
   height: 10px;
-  position: absolute;
   background-color: #ffcc13;
   top: 17px;
   left: 312px;
@@ -156,7 +137,6 @@ body {
 .car-window-line-3 {
   width: 50px;
   height: 8px;
-  position: absolute;
   background-color: #ffcc13;
   top: -58px;
   left: 200px;
@@ -165,7 +145,6 @@ body {
 .car-window-line-4 {
   width: 25px;
   height: 8px;
-  position: absolute;
   background-color: #ffcc13;
   top: -58px;
   left: 140px;
@@ -175,7 +154,6 @@ body {
 .car-window-line-5 {
   width: 50px;
   height: 8px;
-  position: absolute;
   background-color: #ffcc13;
   top: 9px;
   left: 110px;
@@ -184,7 +162,6 @@ body {
 .car-window-line-6 {
   width: 20px;
   height: 8px;
-  position: absolute;
   background-color: #ffcc13;
   top: 9px;
   left: 240px;
@@ -193,7 +170,6 @@ body {
 .car-door-handle {
   width: 20px;
   height: 8px;
-  position: absolute;
   background: linear-gradient(silver, darkgrey);
   top: 50px;
   left: 200px;
@@ -204,42 +180,33 @@ body {
   background: linear-gradient(silver, darkgrey);
   width: 50px;
   height: 50px;
-  position: absolute;
   top: 70px;
   left: 460px;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
   border-style: solid;
-  border-color: #ffcc13;
-  border-width: 8px;
 }
 
 .car-exhaust {
   background-color: darkgrey;
   width: 65px;
   height: 20px;
-  position: absolute;
   top: 130px;
   left: -25px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   border-style: solid;
-  border-color: #ffcc13;
-  border-width: 8px;
 }
 
 .car-rear-light {
   background: linear-gradient(silver, darkgrey);
   width: 50px;
   height: 50px;
-  position: absolute;
   top: 70px;
   left: -25px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   border-style: solid;
-  border-color: #ffcc13;
-  border-width: 8px;
 }
 
 .car-wheel-front img {
@@ -248,13 +215,10 @@ body {
   width: 120px;
   border-radius: 240px;
   animation: 1s linear infinite rotate;
-  position: absolute;
   transform-origin: 50% 50%;
   top: 70px;
   left: 30px;
   border-style: solid;
-  border-color: #ffcc13;
-  border-width: 8px;
 }
 
 .car-wheel-behind img{
@@ -263,19 +227,15 @@ body {
   width: 120px;
   border-radius: 240px;
   animation: 1s linear infinite rotate;
-  position: absolute;
   transform-origin: 50% 50%;
   top: 70px;
   left: 330px;
   border-style: solid;
-  border-color: #ffcc13;
-  border-width: 8px;
 }
 
 .smog-one {
   width: 50px;
   height: 30px;
-  position: absolute;
   border-radius: 5px;
   background: darkgrey;
   top: 126px;
@@ -288,7 +248,6 @@ body {
   left: -75px;
   width: 50px;
   height: 30px;
-  position: absolute;
   border-radius: 5px;
   background: darkgrey;
   animation: pulse2 1s linear infinite;
